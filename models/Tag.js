@@ -6,13 +6,6 @@ class Tag extends Model {}
 
 Tag.init(
   {
-    sequelize,
-    timestamps: false,
-    freezeTableName: true,
-    underscored: true,
-    modelName: 'tag',
-  },
-  {
     id: {
         type: DataTypes.INTEGER,
         allowNull: false,
