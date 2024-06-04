@@ -7,7 +7,6 @@ const { doFindAll, doFindOne, doCreate, doUpdate, doDelete } = require('./api-ut
 const includeProducts = [
     {
         model: Product,
-        as: 'tagged_products',
         attributes: [
             'id',
             'product_name',
