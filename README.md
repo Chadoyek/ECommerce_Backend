@@ -26,9 +26,6 @@ To reset the database to its original state, users must re-run "npm run seed".
 * Sequelize
 * Insomnia
 
-## Credits
-
-Starter code provided by The Coding Boot Camp 
 
 ## License
 
